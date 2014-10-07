@@ -1,0 +1,27 @@
+{
+  "name": "nwDesk",
+  "version": "1.0.0",
+  "description": "Example node-webkit app ",
+  "main": "views/index.html",
+  "scripts": {
+    "test": "gulp test",
+    "start": "nodewebkit ./build"
+  },
+  "keywords": [
+    "NW",
+    "node",
+    "desk",
+    "personal",
+    "proxy2014"
+  ],
+  "author": "MarcCloud",
+  "license": "GNU",
+  "devDependencies": {
+    "gulp-filter": "^1.0.2",
+    "gulp-jade": "^0.8.0",
+    "gulp-run": "^1.6.4",
+    "gulp-uglifyjs": "^0.4.4",
+    "main-bower-files": "^2.0.0",
+    "nodewebkit": "^0.10.5"
+  }
+}
